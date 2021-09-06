@@ -8,6 +8,6 @@ public class GetUserPrize {
 	
 	@RequestMapping(value = "/getUserPrize")
 	public String getPrize() {
-		return "Congratulations";
+		return "Congratulations you have won";
 	}
 }
